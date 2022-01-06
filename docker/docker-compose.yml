@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  webmonitor:
+    build: .
+    container_name: webmonitor
+    command: >
+      bash -c "./web-monitor"
